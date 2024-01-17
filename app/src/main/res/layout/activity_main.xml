@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#03f0fc"
+    android:padding="40dp">
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login form-social networking site"
+        android:textSize="21dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#fc031c"
+        android:textStyle="bold"
+
+
+        />
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:id="@+id/img1"
+        android:background="#9D8FF0"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_android_black_24dp"
+
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:ems="10"
+        android:id="@+id/text1"
+        android:hint="enter username"
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:id="@+id/text2"
+        android:hint="enter password"
+        android:selectAllOnFocus="true"
+        android:inputType="numberPassword"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="Login"
+        android:ems="7"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultView"
+        android:layout_marginTop="25dp"
+        android:textSize="15dp"/>
+
+
+</LinearLayout>
